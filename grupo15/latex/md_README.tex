@@ -1,0 +1,58 @@
+\subsection*{Trabalho realizado por\+:}
+
+\begin{DoxyVerb}* Guilherme Saturno a21700118
+* Lucas Viana a21805095
+* Rita Saraiva a21807278
+\end{DoxyVerb}
+
+
+\subsection*{Descrição da solução\+:}
+
+\begin{DoxyVerb}* Utilizamos um "switch" dentro de um ciclo "while" para selecionar funções armazenadas num ficheiro Header(funtions.h), que utilizam um ciclo "for", estrutura "if, else" ou "scanf e printf" para recolher e devolver dados ao usuário.
+* Utilizamos matrizes para armazenar os dados dos jogadores, tal como recursos, posições e pontos.
+* Também utilizamos as matrizes para definir o mapa de jogo e as repectivas características de cada área.
+
+![Fluxograma](/images/fluxo.jpg)
+\end{DoxyVerb}
+
+
+\subsection*{Manual de utilizador\+:}
+
+\begin{DoxyVerb}Como compilar: 
+    * make all(compilar tudo a partir do gcc);
+    * make clean( para limpar os ficheiros .o e .out);
+    * ./prog para iniciar o programa(executável já disponível).
+
+Como jogar:
+    O jogo trata-se de um player vs player jogado através de turnos. Começa com o player 1 a escolher uma aldeia e de seguida o player 2 a fazer a sua escolha. Depois, é apresentado uma lista de opções do player 1 que pode optar por:
+
+    1 - Lançar os dados
+    2 - Contruir uma aldeia
+    3 - Evoluir uma aldeia para uma cidade
+    4 - Trocar 10 materiais por 1 ponto
+    5 - Trocar 4 materiais por uma carta à escolha
+    6 - Ver Stats
+    7 - Ver mapa
+    8 - Comandos
+    9 - Regras
+    10 - Sair
+
+    Cada vez que é lançado os dados o player altera possibilitando cada um ter todas as escolhas e ambos recebem recursos se a soma dos dados for um número que esteja presente nos terrenos adjacentes de sua aldeia. Se o player não tiver recursos ou a opção que escolheu não for possível realizar aparece uma mensagem e pede de novo qual a opção que quer optar por. O jogo termina quando um dos players chegarem a 6 pontos.
+\end{DoxyVerb}
+
+
+\subsection*{Conclusões e Matéria aprendida\+:}
+
+\begin{DoxyVerb}Com este projeto, desenvolvemos a nossa aprendizagem de realizar ciclos "for" para manipular matrizes, como também utilizar um ficheiro Header e passar parâmetros para as funções contidas no mesmo.
+Para além disso, ganhamos mais conhecimento referente ao Makefile, .gitignore e outros. Devido à falta de conhecimento perante à utilização do ficheiro .INI, criamos matrizes utilizando arrays de arrays para estabelecer as posições e os respetivos recursos(contendo o número calhado da soma dos dados) do mapa.
+\end{DoxyVerb}
+
+
+\subsection*{Referências\+:}
+
+\begin{DoxyVerb}Retiramos dúvidas e ideias em:
+    * Questões colocadas no site stackoverflow.com;
+    * PDF feitas pelo Professor;
+    * Vídeos com tutoriais;
+    * Colegas do curso.\end{DoxyVerb}
+ 
